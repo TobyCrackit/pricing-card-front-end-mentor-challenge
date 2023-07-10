@@ -40,6 +40,7 @@ h2, h4, p{
   vertical-align: top;
   background-color: #2ab2af;
   padding: 25px;
+  flex-basis: 50%;
 
 }
 
@@ -50,6 +51,7 @@ h2, h4, p{
   vertical-align:top;
   background-color: #2ebfbd;
   padding: 25px;
+  flex-basis: 50%;
 }
 
 #top-section h2 {
@@ -125,7 +127,7 @@ ul {
     width: 550px;
     height: 400px;
   }
-  #bottom-left-section, #bottom-right-section {
-    width: 50%;
+  #bottom-section {
+    flex-direction: row;
   }
 }
